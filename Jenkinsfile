@@ -23,7 +23,6 @@ pipeline {
         stage('Archive') {
             steps {
                 archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
-                junit 'build/reports/**/*.xml'
             }
         }
     }
