@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/JenkinsfileJavaProject.git'
+                git 'https://github.com/AlexNeutrino/myenkinslab.git'
             }
         }
         stage('Build') {
